@@ -3,18 +3,12 @@
     
       {
         "id":1,
-        "category": "we think you'll like",
-       "food": {"price": 299,
-        "rating": 4.5,
         "name": "Chicken Combo",
+        "category": "we think you'll like",
+        "price": 299,
+        "rating": 4.5,
         "description": "A delicious combo meal with grilled chicken, fries, and a soft drink.",
         "image": "https://example.com/chicken_combo.jpg"
-
-        },{
-          "name": "Cheese Garlic Bread",
-        }
-        
-        
       },
       {
         "id":2,
@@ -36,7 +30,7 @@
       },
       {
         "id":4,
-        
+        "name": "Cheese Garlic Bread",
         "category": "we think you'll like",
         "price": 149,
         "rating": 4.2,

@@ -20,8 +20,10 @@ const Sidebar = () => {
       getfood();
     }, []);
 
-    const uniqueCategory = food.filter((product,index,array)=>array.findIndex ((p)=>p.category==food.category)==index)
-    console.log(uniqueCategory);
+    const uniqueCategory = food.map((item)=>item.category)
+    
+    // food.filter((product,index,array)=>array.findIndex ((p)=>p.category==food.category)==index)
+    // console.log(uniqueCategory);
    
     return (
       <div>
