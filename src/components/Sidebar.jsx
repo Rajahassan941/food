@@ -33,14 +33,14 @@ const Sidebar = () => {
               return uniqueCategories;
             }, [])
             .map((a) => (
-              <div key={a.id}>
+              <div key={a.category}>
                 <Link
                   style={{
                     textDecoration: "none",
                     color: "#8a8484",
                     maxWidth: "20px",
                   }}
-                  to={`viewcatogary/${a.id}`}
+                  to={`viewcatogary/${a.categorykey}`}
                 >
                   {a.category}
                 </Link>

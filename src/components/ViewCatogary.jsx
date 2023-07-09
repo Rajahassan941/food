@@ -8,12 +8,13 @@ import Sidebar from "./Sidebar";
 
 const ViewCatogary = () => {
   const param = useParams();
-  // console.log(param.id);
+  console.log(param.categorykey);
   const [food, setFood] = useState([]);
   const getfood = async () => {
     await fetch("/food.json").then((data) => {
       data.json().then((result) => {
-        setFood(result.catogaries);
+        setFood(result.food_items);
+        console.log(`food${food}`);
       });
     });
   };
@@ -22,8 +23,8 @@ const ViewCatogary = () => {
     getfood();
   }, []);
 
-  // const viewfood =food.find(item=>item.id== param.id);
-  // console.log(viewfood);
+  const viewfood =food.find(item=>item.categorykey== param.categorykey);
+  console.log(viewfood);
 
   return (
     <div className="container">
@@ -31,14 +32,14 @@ const ViewCatogary = () => {
       <div className="childone"><Sidebar/></div>
 <div className="childtwo">
 
-{/* {
+{
   viewfood?
 (
   <>
   <h6>{viewfood.name}</h6>
   <img src="{viewfood.image}" alt="" />
   </>):'null'
-} */}
+}
 </div>
       
 
