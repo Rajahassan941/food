@@ -5,26 +5,21 @@ import Header from "./Header";
 import "./viewcatogaries.css";
 import Sidebar from "./Sidebar";
 
-
-const ViewCatogary = () => {
-  const param = useParams();
-  console.log(param.categorykey);
+const ViewCategory = () => {
+  const { categorykey } = useParams();
   const [food, setFood] = useState([]);
-  const getfood = async () => {
+  const getFood = async () => {
     await fetch("/food.json").then((data) => {
       data.json().then((result) => {
         setFood(result.food_items);
-        console.log(`food${food}`);
       });
     });
   };
 
   useEffect(() => {
-    getfood();
+    getFood();
   }, []);
-
-  const viewfood =food.find(item=>item.categorykey== param.categorykey);
-  console.log(viewfood);
+  const viewFood = food.find((item) => item.categorykey == categorykey);
 
   return (
     <div className="container">
@@ -33,12 +28,12 @@ const ViewCatogary = () => {
 <div className="childtwo">
 
 {
-  viewfood?
+  viewFood?
 (
   <>
-  <h6>{viewfood.name}</h6>
+  <h6>{viewFood.name}</h6>
   <img src="{viewfood.image}" alt="" />
-  </>):'null'
+  </>):"null"
 }
 </div>
       
@@ -47,4 +42,5 @@ const ViewCatogary = () => {
   );
 };
 
-export default ViewCatogary;
+export default ViewCategory;
+

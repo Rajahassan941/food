@@ -15,7 +15,7 @@ const App = () => {
     <Routes>
      
     <Route exact path='/' element={<ViewCatogary/>}/>
-    <Route path='viewcatogary/:id' element={<ViewCatogary/>}/>
+    <Route path='viewcatogary/:categorykey' element={<ViewCatogary/>}/>
     
     </Routes>
     </>
