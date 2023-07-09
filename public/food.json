@@ -1,0 +1,128 @@
+{
+    "food_items": [
+    
+      {
+        "id":1,
+        "category": "we think you'll like",
+       "food": {"price": 299,
+        "rating": 4.5,
+        "name": "Chicken Combo",
+        "description": "A delicious combo meal with grilled chicken, fries, and a soft drink.",
+        "image": "https://example.com/chicken_combo.jpg"
+
+        },{
+          "name": "Cheese Garlic Bread",
+        }
+        
+        
+      },
+      {
+        "id":2,
+        "name": "Chicken Combo",
+        "category": "Combos",
+        "price": 299,
+        "rating": 4.5,
+        "description": "A delicious combo meal with grilled chicken, fries, and a soft drink.",
+        "image": "https://example.com/chicken_combo.jpg"
+      },
+      {
+        "id":3,
+        "name": "Cheese Garlic Bread",
+        "category": "Starters",
+        "price": 149,
+        "rating": 4.2,
+        "description": "Warm, cheesy garlic bread with a crispy crust.",
+        "image": "https://example.com/cheese_garlic_bread.jpg"
+      },
+      {
+        "id":4,
+        
+        "category": "we think you'll like",
+        "price": 149,
+        "rating": 4.2,
+        "description": "Warm, cheesy garlic bread with a crispy crust.",
+        "image": "https://example.com/cheese_garlic_bread.jpg"
+      },
+      {
+        "id":5,
+        "name": "Caesar Salad",
+        "category": "Salads",
+        "price": 199,
+        "rating": 4.0,
+        "description": "Fresh romaine lettuce, parmesan cheese, croutons, and tangy Caesar dressing.",
+        "image": "https://example.com/caesar_salad.jpg"
+      },
+      {
+        "id":6,
+        "name": "Chicken Momos",
+        "category": "Momos & Wonton",
+        "price": 129,
+        "rating": 4.7,
+        "description": "Steamed dumplings filled with succulent chicken, served with spicy sauce.",
+        "image": "https://example.com/chicken_momos.jpg"
+      },
+      {
+        "id":7,
+        "name": "Pork Bao",
+        "category": "Baos",
+        "price": 169,
+        "rating": 4.3,
+        "description": "Soft and fluffy buns filled with savory pork and flavorful sauce.",
+        "image": "https://example.com/pork_bao.jpg"
+      },
+      {
+        "id":8,
+        "name": "Veggie Sandwich",
+        "category": "Buns & Sandwiches",
+        "price": 99,
+        "rating": 4.1,
+        "description": "A wholesome sandwich with fresh vegetables, cheese, and mayo.",
+        "image": "https://example.com/veggie_sandwich.jpg"
+      },
+      {
+        "id":9,
+        "name": "Margherita Pizza",
+        "category": "Pizza & Pasta",
+        "price": 249,
+        "rating": 4.4,
+        "description": "Classic pizza topped with tomato sauce, mozzarella cheese, and basil leaves.",
+        "image": "https://example.com/margherita_pizza.jpg"
+      },
+      {
+        "id":10,
+        "name": "Butter Chicken",
+        "category": "Main Course",
+        "price": 349,
+        "rating": 4.6,
+        "description": "Tender chicken cooked in a rich and creamy tomato-based sauce, served with naan.",
+        "image": "https://example.com/butter_chicken.jpg"
+      },
+      {
+        "id":11,
+        "name": "Paneer Tikka",
+        "category": "Starters",
+        "price": 179,
+        "rating": 4.3,
+        "description": "Cubes of paneer marinated in aromatic spices and grilled to perfection.",
+        "image": "https://example.com/paneer_tikka.jpg"
+      },
+      {
+        "id":12,
+        "name": "Greek Salad",
+        "category": "Salads",
+        "price": 189,
+        "rating": 4.2,
+        "description": "A refreshing salad with crisp lettuce, tomatoes, cucumbers, olives, and feta cheese.",
+        "image": "https://example.com/greek_salad.jpg"
+      },
+      {
+        "id":13,
+        "name": "Veg Momos",
+        "category": "Momos & Wonton",
+        "price": 109,
+        "rating": 4.5,
+        "description": "Steamed dumplings filled with a delicious mix of vegetables, served with spicy sauce.",
+        "image": "https://example.com/veg_momos.jpg"
+      }
+    ]
+  }
