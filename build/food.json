@@ -1,0 +1,135 @@
+{
+    "food_items": [
+    
+      {
+        "id":1,
+        "name": "Chicken Combo",
+        "category": "We think you'll like",
+        "categorykey":1001,
+        "price": 299,
+        "rating": 4.5,
+        "description": "A delicious combo meal with grilled chicken, fries, and a soft drink.",
+        "image": "data:image/jpeg;base64,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"
+      },
+      {
+        "id":2,
+        "name": "Chicken Combo",
+        "category": "Combos",
+        "categorykey":1002,
+        "price": 299,
+        "rating": 4.5,
+        "description": "A delicious combo meal with grilled chicken, fries, and a soft drink.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRu0ly3fhBfrwrJmBn2uxWNNxNp7Cw4fYp2mtuU1XjEw&s"
+      },
+      {
+        "id":3,
+        "name": "Cheese Garlic Bread",
+        "category": "Starters",
+        "categorykey":1003,
+        "price": 149,
+        "rating": 4.2,
+        "description": "Warm, cheesy garlic bread with a crispy crust.",
+        "image": "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=300"
+      },
+      {
+        "id":4,
+        "name": "Cheese Garlic Bread",
+        "category": "We think you'll like",
+        "categorykey":1001,
+        "price": 149,
+        "rating": 4.2,
+        "description": "Warm, cheesy garlic bread with a crispy crust.",
+        "image": "https://example.com/cheese_garlic_bread.jpg"
+      },
+      {
+        "id":5,
+        "name": "Caesar Salad",
+        "category": "Salads",
+        "categorykey":1004,
+        "price": 199,
+        "rating": 4.0,
+        "description": "Fresh romaine lettuce, parmesan cheese, croutons, and tangy Caesar dressing.",
+        "image": "https://example.com/caesar_salad.jpg"
+      },
+      {
+        "id":6,
+        "name": "Chicken Momos",
+        "category": "Momos & Wonton",
+        "categorykey":1005,
+        "price": 129,
+        "rating": 4.7,
+        "description": "Steamed dumplings filled with succulent chicken, served with spicy sauce.",
+        "image": "https://example.com/chicken_momos.jpg"
+      },
+      {
+        "id":7,
+        "name": "Pork Bao",
+        "category": "Baos",
+        "categorykey":1006,
+        "price": 169,
+        "rating": 4.3,
+        "description": "Soft and fluffy buns filled with savory pork and flavorful sauce.",
+        "image": "https://example.com/pork_bao.jpg"
+      },
+      {
+        "id":8,
+        "name": "Veggie Sandwich",
+        "category": "Buns & Sandwiches",
+        "categorykey":1007,
+        "price": 99,
+        "rating": 4.1,
+        "description": "A wholesome sandwich with fresh vegetables, cheese, and mayo.",
+        "image": "https://example.com/veggie_sandwich.jpg"
+      },
+      {
+        "id":9,
+        "name": "Margherita Pizza",
+        "category": "Pizza & Pasta",
+        "categorykey":1008,
+        "price": 249,
+        "rating": 4.4,
+        "description": "Classic pizza topped with tomato sauce, mozzarella cheese, and basil leaves.",
+        "image": "https://example.com/margherita_pizza.jpg"
+      },
+      {
+        "id":10,
+        "name": "Butter Chicken",
+        "category": "Main Course",
+        "categorykey":1009,
+        "price": 349,
+        "rating": 4.6,
+        "description": "Tender chicken cooked in a rich and creamy tomato-based sauce, served with naan.",
+        "image": "https://example.com/butter_chicken.jpg"
+      },
+      {
+        "id":11,
+        "name": "Paneer Tikka",
+        "category": "Starters",
+        "categorykey":1003,
+        "price": 179,
+        "rating": 4.3,
+        "description": "Cubes of paneer marinated in aromatic spices and grilled to perfection.",
+        "image": "https://example.com/paneer_tikka.jpg"
+      },
+      {
+        "id":12,
+        "name": "Greek Salad",
+        "category": "Salads",
+        "categorykey":1004,
+        "price": 189,
+        "rating": 4.2,
+        "description": "A refreshing salad with crisp lettuce, tomatoes, cucumbers, olives, and feta cheese.",
+        "image": "https://example.com/greek_salad.jpg"
+      },
+      {
+        "id":13,
+        "name": "Veg Momos",
+        "category": "Momos & Wonton",
+        "categorykey":1005,
+        "price": 109,
+        "rating": 4.5,
+        "description": "Steamed dumplings filled with a delicious mix of vegetables, served with spicy sauce.",
+        "image": "https://example.com/veg_momos.jpg"
+      }
+    ]
+  }
