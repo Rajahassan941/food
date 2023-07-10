@@ -1,3 +1,30 @@
 *{
     color: black;
 }
+.items{
+    width: 50%;
+}
+.all{
+    display: flex;
+}
+.btn button{
+    color: green;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow:0 1px 0 1px  #888888;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.items img{
+    margin-top: 20px;
+    border-radius: 15px;
+    max-width: 160px;
+}

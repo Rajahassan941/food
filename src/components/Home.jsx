@@ -12,7 +12,7 @@ const Home = () => {
         <div className="childone">
         <Sidebar/>
         </div>
-        <div className="childtwo"></div>
+        <div className="childtwo"><ViewCatogary/></div>
       </div>
       
       

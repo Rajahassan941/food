@@ -5,11 +5,16 @@
     flex-direction: column;
 }
 .section{
-    margin-top: 30px ;
+    margin-top: 40px ;
     margin-left: 10px;
-    font-size: small;
+    width: fit-content;
+    font-size: x-small;
     font-weight: normal;
     
     
 }
-
+.btn {
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
