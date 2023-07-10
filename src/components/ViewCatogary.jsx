@@ -1,13 +1,15 @@
 import { React, useState, useEffect } from "react";
-import { useParams,useNavigate, Link } from "react-router-dom";
+import { useParams,useNavigate } from "react-router-dom";
 import { LuIndianRupee } from 'react-icons/lu';
 import { IoStarSharp } from 'react-icons/io5';
 
-
+import Viewitem from "./Viewitem"; 
 import "./viewcatogaries.css";
 import Sidebar from "./Sidebar";
 
 const ViewCategory = () => {
+  const navigate=useNavigate()
+  const[button,setButton]=useState(false)
   const { categorykey } = useParams();
   console.log(categorykey);
   const [food, setFood] = useState([]);
@@ -46,11 +48,21 @@ const ViewCategory = () => {
    <IoStarSharp/><IoStarSharp/><IoStarSharp/><IoStarSharp/><IoStarSharp/> {viewFood.rating}
    </div>
    <div  className="btn">
-   <Link  style={{
+   {/* <Link  style={{
                     textDecoration: "none",
                     color: "#8a8484",
                     maxWidth: "20px",
-                  }} to={`/${viewFood.categorykey}/${viewFood.id}`}> <button >ADD</button></Link>
+                  }} to={`/${viewFood.categorykey}/${viewFood.id}`}> */}
+                     <button onClick={()=>setButton(true)} >ADD</button>
+                     {/* </Link> */}
+                  <Viewitem trigger={button} setTrigger={setButton}>
+                    <img style={{marginTop:"20px"}} src={viewFood.image} alt="" />
+                    <h3>{viewFood.name}</h3>
+                    {viewFood.price}
+                    <br />
+                   <p style={{fontSize:"small",fontWeight:"light"}}>{viewFood.description}</p> 
+                   <button onClick={()=>navigate('/order')}>ORDER</button>
+                  </Viewitem>
    </div>
   
   </div>

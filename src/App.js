@@ -7,6 +7,7 @@ import ViewCatogary from './components/ViewCatogary';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Viewitem from './components/Viewitem';
+import Order from './components/Order';
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
     <Route  path='/' exact element={<ViewCatogary/>}/>
     <Route path=':categorykey'  element={<ViewCatogary/>}/>
     <Route path=':categorykey/:id' element={<Viewitem/>}/>
-    
+    <Route path='/order' element={<Order/>}/>
     </Routes>
     </>
   )

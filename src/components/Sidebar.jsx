@@ -38,17 +38,7 @@ const navigate=useNavigate()
               <div key={a.category}>
 
                 <button className="btn" onClick={()=>navigate(`/${a.categorykey}`)}> 
-                {/* <Link
-                  style={{
-                    textDecoration: "none",
-                    color: "#8a8484",
-                    maxWidth: "20px",
-                  }}
-                  
-                                to={`${a.categorykey}`} 
-                >
-                  {a.category}
-                </Link> */}
+               
                 {a.category}
                  </button>
                 

@@ -1,8 +1,9 @@
 import React, { useState ,useEffect} from 'react'
-import Sidebar from './Sidebar'
+import { RxCross2 } from 'react-icons/rx';
 import { useParams } from 'react-router-dom'
+import "./viewitem.css"
 
-const Viewitem = () => {
+const Viewitem = (props) => {
   const {id}=useParams()
   const [food, setFood] = useState([]);
   const getFood = async () => {
@@ -17,20 +18,27 @@ const Viewitem = () => {
   }, []);
   const viewFood = food.find((item) => item.id == id);
   
-  return (
-    <>
+  return (props.trigger)?(
     
-{
-viewFood?(
-  <div className="container">
-  <div className="childone"><Sidebar/></div>
-  <div className="childtwo">
+    
+
+
+
+<div className='popup'>
+  <div className="popup-inner">
+    <button onClick={()=>props.setTrigger(false)}><RxCross2/></button>
+
+    
+    {props.children}
   </div>
-  </div>
-):'null'
+
+</div>
+
+
+
+
+):''
 }
-</>
-  )
-}
+
 
 export default Viewitem
