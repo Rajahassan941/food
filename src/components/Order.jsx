@@ -1,7 +1,8 @@
 import React from 'react'
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
+import "./order.css"
+
 import { Link } from 'react-router-dom';
 
 const Order = () => {
@@ -11,28 +12,20 @@ const Order = () => {
   }
   return (
     <div className='order-main'>
-        <FloatingLabel
-        controlId="floatingInput"
-        label="name"
-        className="mb-3"
-      >
-        <br />
-        <Form.Control type="text" placeholder="name" />
-      </FloatingLabel>
-      <FloatingLabel controlId="floatingPassword" label="phone number">
-        <Form.Control type="text" placeholder="phone number" />
-      </FloatingLabel>
-      <br />
-      <FloatingLabel
-        controlId="floatingInput"
-        label="address"
-        className="mb-3"
-      >
-        <Form.Control type="text" placeholder="address" />
-      </FloatingLabel>
-      <br />
+      <div className="order-inner">
+                <input type="text" placeholder='name' />
+                <br />
+                <input type="text" placeholder='phone number' />
+                <br />
+                <input type="text" placeholder='address' />
+                <br />
+                <input type="text" placeholder='locality' />
+                <br />
+                <input type="text" placeholder='pin' />
+            </div>
+            <br />
       <Link to={'/'}>
-      <Button onClick={()=>Ordered()} variant="success">CONFIRM</Button>
+      <button className='btn-order' onClick={()=>Ordered()} variant="success">CONFIRM</button>
       </Link>
       
 

@@ -1,0 +1,36 @@
+.order main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 30vh;
+
+}
+.order-inner{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 30vh;
+}
+.order-inner input{
+    width: 90%;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+
+}
+.btn-order{
+    color: #078209;
+    cursor: pointer;
+    border-radius: 20px;
+    border: #a7c4a7;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    height: 30px;
+    width: 90px;
+
+    border: 1px solid rgb(187, 182, 182);
+}
