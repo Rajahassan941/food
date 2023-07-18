@@ -17,4 +17,11 @@
     border: none;
     cursor: pointer;
     text-align: left;
+    height: 30px;
+    
+}
+.btn:focus{
+    color:#f57d27 ;
+    background-color: rgba(245, 125, 39, 0.1);
+    border-left: 2px solid #f57d27;
 }

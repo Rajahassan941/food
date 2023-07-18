@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './Header'
 import Sidebar from './Sidebar'
 import ViewCatogary from './ViewCatogary'
 import "./home.css"

@@ -1,6 +1,4 @@
 import React from 'react'
-import FloatingLabel from 'react-bootstrap/FloatingLabel';
-import Form from 'react-bootstrap/Form';
 import "./order.css"
 
 import { Link } from 'react-router-dom';
